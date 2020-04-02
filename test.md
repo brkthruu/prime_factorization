@@ -21,9 +21,9 @@
 * * *
 ### 함수 구성
 ```
-int		  argc_error(int argc);
+int argc_error(int argc);
 ```
-인자의 개수에 따른 오류 판별함수. ex) 인자가 없거나, 두 개 이상일 때 error   
+인자의 개수에 따른 오류 판별함수. ex) 인자가 없거나, 두 개 이상일 때 error 반환.
 
 ```
 unsigned int  atoui(char \*argv[]);
@@ -33,8 +33,9 @@ unsigned int  atoui(char \*argv[]);
 ```
 void	print_factors(unsigned int num);
 ```
-소인수 분해 하면서 출력하는 함수.
+소인수 분해 하면서 출력하는 함수.   
+tmp 변수에 이전 소인수를 저장해놓고, 현재 소인수와 중복되는지 검사하는 방법으로 한 번만 출력합니다.
 ```
-int		main(int argc, char *argv[]);
+int main(int argc, char *argv[]);
 ```
 main 함수
