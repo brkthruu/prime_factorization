@@ -1,6 +1,6 @@
 # prime_factorization
 즐거운 소인수분해
-
+### 실행결과
 ![capture_result](https://user-images.githubusercontent.com/13804135/78217102-46fd3e80-74f6-11ea-97c0-114aa66db68b.png)
 
 ### 예외1
