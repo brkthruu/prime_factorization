@@ -27,7 +27,7 @@ unsigned int atoui(char *argv[])
 	{
 		if(argv[1][i] > '9' || argv[1][i] < '0')
 		{
-			printf("Not a validate number.\n");
+			printf("Not a valid number.\n");
 			return (0);
 		}
 		num = (num * 10) + (argv[1][i] - '0');
