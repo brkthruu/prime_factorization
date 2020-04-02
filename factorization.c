@@ -33,7 +33,7 @@ unsigned int atoui(char *argv[])
 		num = (num * 10) + (argv[1][i] - '0');
 		i++;
 	}
-	if (!(num >= 2 && num <= 4294967295))
+	if (!(num >= 2 && num <= (unsigned int)4294967295))
 	{
 		printf("Out of range.\n");
 		return (0);
